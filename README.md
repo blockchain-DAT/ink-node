@@ -17,7 +17,7 @@ git clone https://github.com/blockchain-DAT/ink-node.git && cd ink-node && mv de
 ### 3️⃣ Run the setup script:
 
 ```
-./setup.sh
+chmod +x setup.sh && ./setup.sh
 ```
 
 ### 4️⃣ Start the Ink node using Docker Compose:
